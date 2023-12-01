@@ -4,6 +4,8 @@ mensaje = " Hola jose david este es tu primer hola mundo en TypeScript"
 mensaje = "chao mundo"
 console.log(mensaje)
 console.log(typeof [])
+console.log(Array.isArray([1, 3, 5]));
+// console,log(Arrayis.arrays [])
 
 /* tipos de datos nativos en Javascript*/
 /**
@@ -48,7 +50,7 @@ function chanchitoFeliz(config:any){
 
 //Array
 // Array inferido del tipo de dato
-let animales = ["vaca", "perro", "gato"]
+let animales = ["vaca", "perro", "gato"] // string
 
 // Array de tipo de dato
 let animales2: string[] = ["vaca", "perro", "gato"]
@@ -56,10 +58,10 @@ let nums: number = 4
 let numeros: number[] = [1,2,3,4,5,6,7,8,9,10]
 // inicializamos sin darle valor para queno sea any
 let checks: boolean[] = [] 
-let nums2: Array<number> = []
+// let nums2: Array<number> = [] // notacion deprecada
 
 // Funcionalidades de TypeScript
-// nums.map(x => x.)  // el autocompletado sugiere el tipo de datos despues del punto
+// nums.map(x => x.)  //el autocompletado sugiere el tipo de datos despues del punto
 
 // Tuplas en JavasScript no existe, pero TypeScript lo soporta
 //las tuplas solo nos permite colocar datos pero si estan declarados los tipos de datos.
@@ -134,4 +136,4 @@ const objeto: persona = {
 
 // arreglos del objeto persona solo hay elementos del objeto personas
 
-const arr: persona[] = []
+const arr: persona[] = []  
