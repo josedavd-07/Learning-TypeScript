@@ -137,3 +137,4 @@ const objeto: persona = {
 // arreglos del objeto persona solo hay elementos del objeto personas
 
 const arr: persona[] = []  
+
